@@ -1,0 +1,25 @@
+{
+    "name": "mayconbordin/entrust-middleware",
+    "type": "library",
+    "description": "A Laravel 5 middleware for Entrust",
+    "keywords": ["laravel", "laravel 5", "entrust", "php"],
+    "homepage": "https://github.com/mayconbordin/entrust-middleware",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maycon Viana Bordin",
+            "email": "mayconbordin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*|5.1.*",
+        "illuminate/routing": "5.0.*|5.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mayconbordin\\Entrust": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
